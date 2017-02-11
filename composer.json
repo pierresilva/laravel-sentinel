@@ -1,7 +1,7 @@
 {
     "name": "pierresilva/laravel-sentinel",
     "description": "Laravel 5 Roles and Permissions",
-    "keywords": ["shinobi", "roles", "permissions", "auth", "laravel"],
+    "keywords": ["roles", "permissions", "auth", "laravel"],
     "license": "MIT",
     "authors": [
         {
