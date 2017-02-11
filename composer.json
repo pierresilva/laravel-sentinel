@@ -1,0 +1,30 @@
+{
+    "name": "pierresilva/laravel-sentinel",
+    "description": "Laravel 5 Roles and Permissions",
+    "keywords": ["shinobi", "roles", "permissions", "auth", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pierre Silva",
+            "email": "pierre.silva@lab3studio.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/database": "5.3.*",
+        "illuminate/support": "5.3.*",
+        "illuminate/filesystem": "5.3.*",
+        "illuminate/config": "5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pierresilva\\Sentinel\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
