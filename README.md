@@ -41,7 +41,7 @@ Then open the Kernel.php file in app\Http\Kernel.php and add this to user it as 
 You'll need to run the provided migrations against your database. Publish the migration files using the `vendor:publish` Artisan command and run `migrate`:
 
 ```
-php artisan vendor:publish --provider="pierresilva\Sentinel\SentinelServiceprovider"
+php artisan vendor:publish
 ```
 
 ```
